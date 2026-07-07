@@ -9,7 +9,7 @@ echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/ganendra4u/local_manifest_beryllium.git .repo/local_manifests -b axion-23.2
+git clone https://github.com/ganendra4u/local_manifest_beryllium.git .repo/local_manifests -b main
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
