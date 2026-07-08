@@ -34,7 +34,7 @@ source build/envsetup.sh
 echo "============="
 
 # Lunch
-axion beryllium userdebug va
+axion beryllium userdebug gms
 
 # Build
 ax -br
