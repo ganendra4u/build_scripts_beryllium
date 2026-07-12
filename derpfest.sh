@@ -2,7 +2,7 @@
 
 rm -rf .repo/local_manifests/
 
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs --depth=1
 
 git clone https://github.com/ganendra4u/local_manifest_beryllium.git .repo/local_manifests -b main
 
